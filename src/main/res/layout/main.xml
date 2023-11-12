@@ -1,0 +1,98 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="220dp"
+		android:background="@drawable/top_intro_background"
+		/>
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		
+		android:background="@drawable/bottom_intro_background"
+		android:layout_gravity="bottom"
+	/>
+
+    <TextView
+		android:layout_width="wrap_content"
+		android:layout_height="590dp"
+		android:layout_gravity="center"
+		
+		android:text="Bem Vindo"
+		android:textSize="35sp"
+		android:textStyle="italic|bold"
+		android:textColor="#ffffff"
+		/>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="490dp"
+		android:layout_gravity="center"
+
+		android:text="Finestweber o melhor da web"
+		android:textSize="18sp"
+		android:textStyle="italic"
+		android:textColor="#ffffff"
+	/>
+    <TextView
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		
+		android:layout_marginTop="360dp"
+		android:layout_marginStart="35dp"
+		android:text="Download all the designers"
+		android:textSize="18sp"
+		android:textStyle="italic"
+		android:textColor="#ffffff"
+	/>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+
+		android:layout_marginTop="380dp"
+		android:layout_marginStart="35dp"
+		android:text="avaliable on the uilover channel"
+		android:textSize="18sp"
+		android:textStyle="italic"
+		android:textColor="#ffffff"
+	/>
+    <TextView
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+
+		android:layout_marginTop="400dp"
+		android:layout_marginStart="35dp"
+		android:text="for free"
+		android:textSize="18sp"
+		android:textStyle="italic"
+		android:textColor="#ffffff"
+	/>
+
+   <Button
+	   android:id="@+id/botaoHome"
+	   android:layout_width="290dp"
+	   android:layout_height="50dp"
+	   android:text="login"
+	   android:textColor="#FFFFFF"
+	   android:textSize="18dp"
+	   android:background="#0534a2"
+	   android:layout_gravity="center"
+	   android:layout_marginTop="160dp"
+	 />
+	<Button
+		android:id="@+id/botaoSignUp"
+		android:layout_width="290dp"
+		android:layout_height="50dp"
+		android:text="SignUp"
+		android:textColor="#FFFFFF"
+		android:textSize="18dp"
+		android:background="#0534a2"
+		android:layout_gravity="center"
+		android:layout_marginTop="225dp"
+	/>
+		
+	
+</FrameLayout>
+    
+
